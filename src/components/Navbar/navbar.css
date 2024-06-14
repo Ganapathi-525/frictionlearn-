@@ -1,0 +1,129 @@
+
+*{
+    box-sizing: border-box;
+}
+Link{
+     text-decoration: 'none'; 
+     /* color:#4CAF4F */
+}
+
+
+nav{
+
+
+    /* width: 1440px; */
+height: 84px;
+gap: 0px;
+display: flex;
+justify-content:space-around;
+align-items:center;
+opacity: 0px;
+background: #F5F7FA;
+display: flex;
+
+}
+
+
+.icondiv{
+    width: Hug (154.49px)px;
+height: Hug (24px)px;
+top: 30px;
+left: 105px;
+gap: 8px;
+display: flex;
+opacity: 0px;
+
+}
+
+.icondiv>h1{
+    width: 111.49px;
+height: 20.66px;
+gap: 0px;
+opacity: 0px;
+color: #263238;
+
+
+
+}
+
+.midnav{
+    width: 588px;
+height: 24px;
+top: 30px;
+left: 425.5px;
+gap: 10px;
+opacity: 0px;
+display: flex;
+justify-content: space-between;
+
+
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #18191F;
+
+
+
+}
+.midnav>p{
+    color: #18191F;
+
+}
+
+.midnav>p:hover{
+    color: #4CAF4F;
+}
+
+.Logindiv{
+    width: Hug (182px)px;
+height: Hug (40px)px;
+top: 22px;
+left: 1138px;
+display: flex;
+gap: 14px;
+opacity: 0px;
+
+}
+.loginh1{
+    text-decoration: none;
+}
+
+.Logindiv>div{
+    width: Hug (77px)px;
+height: Hug (40px)px;
+padding: 10px 20px 10px 20px;
+gap: 10px;
+/* border-radius: 6px 0px 0px 0px; */
+opacity: 0px;
+
+
+}
+.Logindiv h1{
+    /* //styleName: Label / Medium Label; */
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+text-decoration: none;
+
+
+
+}
+.signup{
+    background: #4CAF4F;
+    width: Hug (91px)px;
+    height: Hug (40px)px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+ border-radius: 6px;
+    opacity: 0px;
+    color: #F5F7FA;
+    
+}
+
+.login{
+    color:#4CAF4F;
+}
