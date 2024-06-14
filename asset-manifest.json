@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Ganapathi-525/frictionlearn-/static/css/main.12936655.css",
+    "main.js": "/Ganapathi-525/frictionlearn-/static/js/main.1fdf78ec.js",
+    "static/js/453.419a5d54.chunk.js": "/Ganapathi-525/frictionlearn-/static/js/453.419a5d54.chunk.js",
+    "static/media/image18.png": "/Ganapathi-525/frictionlearn-/static/media/image18.71fe79f8a3cd1f77c68c.png",
+    "static/media/image19.png": "/Ganapathi-525/frictionlearn-/static/media/image19.791014b829cd6d7c0404.png",
+    "static/media/image20.png": "/Ganapathi-525/frictionlearn-/static/media/image20.5ae9124416438098d414.png",
+    "static/media/Tesla.png": "/Ganapathi-525/frictionlearn-/static/media/Tesla.470136ee9d90d9f949fb.png",
+    "static/media/Illustration.png": "/Ganapathi-525/frictionlearn-/static/media/Illustration.feea23c3296d11892d5a.png",
+    "static/media/mobileunlock.png": "/Ganapathi-525/frictionlearn-/static/media/mobileunlock.3031982de632736dd76c.png",
+    "static/media/mobilelogin.png": "/Ganapathi-525/frictionlearn-/static/media/mobilelogin.59d4a00973fd90f7c367.png",
+    "index.html": "/Ganapathi-525/frictionlearn-/index.html",
+    "main.12936655.css.map": "/Ganapathi-525/frictionlearn-/static/css/main.12936655.css.map",
+    "main.1fdf78ec.js.map": "/Ganapathi-525/frictionlearn-/static/js/main.1fdf78ec.js.map",
+    "453.419a5d54.chunk.js.map": "/Ganapathi-525/frictionlearn-/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12936655.css",
+    "static/js/main.1fdf78ec.js"
+  ]
+}
