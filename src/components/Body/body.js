@@ -92,7 +92,7 @@ const BodyPage = () => {
       </div>
       <div className="Calenders">
         <div className="Calenders1">
-          <img src={mobileLogin} />
+          <img src={mobileLogin} alt='member'/>
         </div>
 
         <div className="Calenders2">

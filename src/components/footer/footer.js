@@ -64,7 +64,7 @@ const Footer = () => {
               <h3>Stay up to date</h3>
             </div>
             <div>
-              <input type="email" placeholder="Your email address"  /> <img src={send}/>
+              <input type="email" placeholder="Your email address"  /> <img src={send} alt='member'/>
             </div>
           </div>
         </div>
