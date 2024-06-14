@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav>
     <div className='icondiv'>
-<img src={icon}/>
+<img src={icon} alt='member'/>
 <h1>Nexcent</h1>
     </div>
 

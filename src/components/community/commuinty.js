@@ -18,21 +18,21 @@ const Community = () => {
         <div className='community2'>
              
              <div>
-            <img src={member}/>
+            <img src={member} alt='member'/>
             <h1>Membership <br/> Organisations</h1>
             <p>Our membership management  software provides full automation of  membership renewals and payments</p>
 
              </div>
 
              <div>
-             <img src={nation}/>
+             <img src={nation} alt='member'/>
              <h1>National  <br/> Associations</h1>
             <p>Our membership management  software provides full automation of  membership renewals <br/> and payments</p>
 
              </div>
 
              <div>
-             <img src={group}/>
+             <img src={group} alt='member'/>
              <h1>Clubs And   <br/> Groups</h1>
             <p>Our membership management software provides full automation of membership renewals and payments</p>
 

@@ -25,7 +25,7 @@ const BodyPage = () => {
   return (
     <div className="bodypage">
       <div className="Unlock">
-        <img src={mobile} />
+        <img src={mobile} alt='member'/>
         <div>
           {" "}
           <h1>The unseen of spending three years at Pixelgrade</h1>
@@ -51,7 +51,7 @@ const BodyPage = () => {
         <div className="Achivements2">
           <div>
             <div>
-              <img src={members} />
+              <img src={members} alt='member'/>
               <div>
                 <h1>2,245,341</h1>
                 <p>Members</p>
@@ -60,7 +60,7 @@ const BodyPage = () => {
 
             <div>
               {" "}
-              <img src={club} />
+              <img src={club} alt='member' />
               <div>
                 <h1>46,341</h1>
                 <p>Clubs</p>
@@ -70,7 +70,7 @@ const BodyPage = () => {
 
           <div>
             <div>
-              <img src={event} />
+              <img src={event} alt='member' />
               <div>
                 {" "}
                 <h1>828,867</h1>
@@ -80,7 +80,7 @@ const BodyPage = () => {
 
             <div>
               {" "}
-              <img src={payment} />
+              <img src={payment} alt='member'/>
               <div>
                 {" "}
                 <h1>1,926,436</h1>
@@ -115,7 +115,7 @@ const BodyPage = () => {
       </div>
       <div className="Custmore">
         <div className="Custmore1">
-          <img src={tesla} />
+          <img src={tesla} alt='member'/>
         </div>
         <div className="Custmore2">
           <div className="content">
@@ -136,12 +136,12 @@ const BodyPage = () => {
             <p>British Dragon Boat Racing Association</p>
             <div className="Frame">
               <div className="frame1">
-                <img src={frame1} />
-                <img src={frame2} />
-                <img src={frame3} />
-                <img src={frame4} />
-                <img src={frame5} />
-                <img src={frame6} />
+                <img src={frame1} alt='member'/>
+                <img src={frame2} alt='member'/>
+                <img src={frame3} alt='member'/>
+                <img src={frame4} alt='member'/>
+                <img src={frame5} alt='member'/>
+                <img src={frame6} alt='member'/>
               </div>
               <div className="frame2">
                 <h2>Meet all customers</h2>{" "}
@@ -162,7 +162,7 @@ const BodyPage = () => {
         </div>
         <div className="commun2">
           <div>
-            <img src={laptop1} />
+            <img src={laptop1} alt='member'/>
             <div className="con">
 
               <p>
@@ -174,7 +174,7 @@ const BodyPage = () => {
           </div>
           <div>
            
-            <img src={laptop2} />
+            <img src={laptop2} alt='member'/>
             <div className="con">
               <p>
                 What are your safeguarding responsibilities and how can you
@@ -185,7 +185,7 @@ const BodyPage = () => {
           </div>
           <div>
     
-            <img src={laptop3} />
+            <img src={laptop3} alt='member'/>
             <div className="con">
               <p>Revamping the Membership Model with Triathlon Australia</p>
               <h4>Readmore</h4>

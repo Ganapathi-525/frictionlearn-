@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="footer2">
         <div className="foo1">
           <div className="foo11">
-            <img src={icon} />
+            <img src={icon} alt='member'/>
             {/* <h1>Nexcent</h1> */}
           </div>
           <div className="foo12">
@@ -26,10 +26,10 @@ const Footer = () => {
           </div>
 
           <div className="foo13">
-            <img src={ig} />
-            <img src={Social1} />
-            <img src={twitter} />
-            <img src={youtube} />
+            <img src={ig} alt='member'/>
+            <img src={Social1} alt='member' />
+            <img src={twitter} alt='member'/>
+            <img src={youtube} alt='member'/>
           </div>
         </div>
         <div className="foo2">

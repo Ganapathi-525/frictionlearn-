@@ -19,13 +19,13 @@ const Client = () => {
         </div>
         <div className='client2'>
            
-           <img src={logo1}/>
-           <img src={logo2}/>
-           <img src={logo3}/>
-           <img src={logo4}/>
-           <img src={logo5}/>
-           <img src={logo6}/>
-           <img src={logo7}/>
+           <img src={logo1} alt='member'/>
+           <img src={logo2} alt='member'/>
+           <img src={logo3} alt='member'/>
+           <img src={logo4}alt='member'/>
+           <img src={logo5}alt='member'/>
+           <img src={logo6}alt='member'/>
+           <img src={logo7}alt='member'/>
            {/* <img src={logo1}/> */}
 
         </div>

@@ -13,9 +13,9 @@ const Herosection = () => {
             <button>Register</button>
 
         </div>
-        <img src={Illustration}/>
+        <img src={Illustration} alt='member'/>
 
-        <img className="dot" src={dot}/>
+        <img className="dot" src={dot} alt='member'/>
       
     </div>
   )
