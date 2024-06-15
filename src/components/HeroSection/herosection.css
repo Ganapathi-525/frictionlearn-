@@ -1,86 +1,159 @@
-.herosection{
-    width: Fill (1,440px)px;
-height:599px;
-padding: 96px 144px 96px 144px;
-gap: 104px;
-opacity: 0px;
-display: flex;
-justify-content:space-evenly;
-background: #F5F7FA;
-
-/* background-color: blue; */
-
+.herosection {
+    width: 100%;
+    max-width: 1440px;
+    height: 599px;
+    padding: 96px 144px;
+    gap: 104px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    display: flex;
+    justify-content: space-evenly;
+    background: #F5F7FA;
 }
-.frame11{
 
-width: Fill (657px)px;
-height: Hug (276px)px;
-gap: 32px;
-opacity: 0px;
-
+.frame11 {
+    width: 100%;
+    max-width: 657px;
+    height: auto;
+    gap: 32px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
 }
-.frame11>h1{
-    /* //styleName: Heading/Headline 1; */
-font-family: Inter;
-font-size: 64px;
-font-weight: 600;
-line-height: 76px;
-text-align: left;
-color: #000000;
 
-
+.frame11 > h1 {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: left;
+    color: #000000;
 }
-.frame11 span{
-font-family: Inter;
-font-size: 64px;
-font-weight: 600;
-line-height: 76px;
-text-align: left;
-color:  #4CAF4F;
 
+.frame11 span {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: left;
+    color: #4CAF4F;
 }
-.frame11 p{
-    /* //styleName: Body/Regular/Body 2; */
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-color: #838080;
-margin:20px 0px;
 
-
+.frame11 p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #838080;
+    margin: 20px 0;
 }
-button{
-    width: Hug (128px)px;
-height: Hug (52px)px;
-padding: 14px 32px 14px 32px;
-gap: 10px;
-border-radius: 4px;
-border-color: #4CAF4F;
-opacity: 0px;
 
+button {
+    width: auto;
+    height: auto;
+    padding: 14px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    border-color: #4CAF4F;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
 }
+
 .frame11 button {
-    width: Hug (128px)px;
-height: Hug (52px)px;
-padding: 14px 32px 14px 32px;
-gap: 10px;
-border-radius: 4px;
-opacity: 0px;
-background-color: #4CAF4F;
-color: aliceblue;
-
-
+    width: auto;
+    height: auto;
+    padding: 14px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    background-color: #4CAF4F;
+    color: aliceblue;
 }
-.dot{
-    width: Hug (46px)px;
-height: Hug (10px)px;
-position:absolute;
-margin-top: 100px;
-top: 557px;
-left: 730px;
-gap: 8px;
-opacity: 0px;
 
+.dot {
+    width: 46px;
+    height: 10px;
+    position: absolute;
+    margin-top: 100px;
+    top: 557px;
+    left: 730px;
+    gap: 8px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .herosection {
+        padding: 96px 100px;
+        gap: 80px;
+    }
+
+    .frame11 {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 992px) {
+    .herosection {
+        flex-direction: column;
+        align-items: center;
+        padding: 96px 50px;
+        gap: 40px;
+    }
+
+    .frame11 {
+        max-width: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .frame11 > h1, .frame11 span, .frame11 p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .frame11 > h1, .frame11 span {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .frame11 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .herosection {
+        padding: 48px 20px;
+    }
+
+    button, .frame11 button {
+        font-size: 14px;
+        padding: 10px 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .frame11 > h1, .frame11 span {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .frame11 p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .herosection {
+        padding: 32px 10px;
+    }
+
+    button, .frame11 button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .dot {
+        top: auto;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }

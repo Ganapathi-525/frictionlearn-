@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Container, Form, Button, Alert } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import './signup.css'; // Import the custom CSS file
 
 const SignupPage = () => {
   const [name, setName] = useState('');
@@ -24,38 +25,44 @@ const SignupPage = () => {
   };
 
   return (
-    <Container className="mt-5">
+    <Container className="mt-5 signup-container">
       <h2 className="text-center">Signup</h2>
       <Form onSubmit={handleSignup}>
-        <Form.Group controlId="formBasicName">
-          <Form.Label>Name:</Form.Label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <Form.Control
+        <div className="form-group">
+          <label htmlFor="formBasicName">Name:</label>
+          <input
             type="text"
+            id="formBasicName"
+            className="form-control"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
           />
-        </Form.Group>
+        </div>
 
-        <Form.Group controlId="formBasicEmail">
-          <Form.Label>Email:</Form.Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <Form.Control
+        <div className="form-group">
+          <label htmlFor="formBasicEmail">Email:</label>
+          <input
             type="email"
+            id="formBasicEmail"
+            className="form-control"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-        </Form.Group>
+        </div>
 
-        <Form.Group controlId="formBasicPassword">
-          <Form.Label>Password:</Form.Label>&nbsp;&nbsp;&nbsp;
-          <Form.Control
+        <div className="form-group">
+          <label htmlFor="formBasicPassword">Password:</label>
+          <input
             type="password"
+            id="formBasicPassword"
+            className="form-control"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-        </Form.Group>
+        </div>
 
         {error && (
           <Alert variant="danger" className="mt-3">

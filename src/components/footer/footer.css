@@ -1,236 +1,283 @@
-footer{
-    width: Hug (1,440px)px;
-height: Hug (628px)px;
-top: 3748px;
-
-gap: 0px;
-opacity: 0px;
-
+footer {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    top: 3748px;
+    gap: 0;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
 }
 
-.footer1{
-
-    width: Fixed (1,440px)px;
-height: Hug (300px)px;
-padding: 32px 0px 32px 0px;
-gap: 32px;
-opacity: 0px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background: #F5F7FA;
-
-}
-.footer1>h1{
-    width: 887px;
-height: 152px;
-gap: 0px;
-opacity: 0px;
-/* //styleName: Heading/Headline 1; */
-font-family: Inter;
-font-size: 64px;
-font-weight: 600;
-line-height: 76px;
-text-align: center;
-/* background: #263238; */
-
+.footer1 {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    padding: 32px 0;
+    gap: 32px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F5F7FA;
 }
 
-.footer1>button{
-    width: Hug (178px)px;
-    height: Hug (52px)px;
-    padding: 14px 32px 14px 32px;
+.footer1 > h1 {
+    width: 100%;
+    max-width: 887px;
+    height: auto;
+    gap: 0;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: center;
+}
+
+.footer1 > button {
+    width: auto;
+    height: auto;
+    padding: 14px 32px;
     gap: 8px;
     border-radius: 4px;
-    opacity: 0px;
-    
-/* //styleName: Body/Medium/Body 2; */
-font-family: Inter;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-text-align: center;
-background: #4CAF4F;
-color: #FFFFFF;
-;
-
-}
-
-.footer2{
-    width: Hug (1,440px)px;
-height: Hug (328px)px;
-padding: 64px 165px 64px 165px;
-display: flex;
-gap: 125px;
-opacity: 0px;
-background: #263238;
-
-}
-
-.foo1{
-    width: Hug (350px)px;
-height: Hug (189.67px)px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-gap: 40px;
-opacity: 0px;
-
-}
-
-
-.foo2{
-    width: Hug (635px)px;
-height: Hug (200px)px;
-gap: 30px;
-opacity: 0px;
-
-}
-
-.foo11{
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    background: #4CAF4F;
     color: #FFFFFF;
-    /* display: flex; */
-    width: Hug (191px)px;
-height: Hug (29.67px)px;
-gap: 9.89px;
-opacity: 0px;
-
 }
 
-.foo12{
-    width: Hug (350px)px;
-    height: Hug (48px)px;
+.footer2 {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    padding: 64px 165px;
+    display: flex;
+    gap: 125px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    background: #263238;
+}
+
+.foo1 {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+}
+
+.foo2 {
+    width: 100%;
+    max-width: 635px;
+    height: auto;
+    gap: 30px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    display: flex;
+}
+
+.foo11 {
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 191px;
+    height: auto;
+    gap: 9.89px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+}
+
+.foo12 {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     gap: 8px;
-    opacity: 0px;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
     color: #FFFFFF;
-    
-}
-.foo12{
-    width: 350px;
-height: 20px;
-gap: 0px;
-opacity: 0px;
-/* //styleName: Body/Regular/Body 3; */
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-text-align: left;
-color:  #F5F7FA;
-
-
 }
 
-.foo12>p{
-    width: 350px;
-height: 20px;
-gap: 0px;
-opacity: 0px;
-/* margin-top: 10px; */
-
-/* //styleName: Body/Regular/Body 3; */
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-text-align: left;
-
+.foo12 > p {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    gap: 0;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #F5F7FA;
 }
 
-
-.foo13{
-    width: Hug (176px)px;
-height: Hug (32px)px;
-gap: 16px;
-display: flex;
-flex-direction: row;
-opacity: 0px;
-
+.foo13 {
+    width: auto;
+    height: auto;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
 }
 
-.foo2{
-    width: Hug (635px)px;
-height: Hug (200px)px;
-display: flex;
-gap: 30px;
-opacity: 0px;
-
-}
-.foo2 h3{
-    width: 160px;
-height: 28px;
-gap: 0px;
-opacity: 0px;
-/* //styleName: Heading/Headline 4; */
-
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 28px;
-text-align: left;
-color: #FFFFFF;
-
+.foo2 h3 {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    gap: 0;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
 }
 
-.foo2 p{
-    width: 160px;
-height: 20px;
-gap: 0px;
-opacity: 0px;
-/* //styleName: Body/Regular/Body 3; */
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-text-align: left;
-color: #FFFFFF;
-
+.foo2 p {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    gap: 0;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
 }
 
-.foo21,.foo22,.foo23{
-    width: Hug (160px)px;
-height: Hug (200px)px;
-display: flex;
-flex-direction: column;
-gap: 24px;
-color: #FFFFFF;
-opacity: 0px;
-
+.foo21, .foo22, .foo23 {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #FFFFFF;
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
 }
 
-.foo8{
-    width: Hug (160px)px;
-    height: Hug (148px)px;
+.foo8 {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    opacity: 0px;
-    
+    opacity: 1; /* Make sure opacity is set to 1 to be visible */
 }
 
-.foo23 input{
-    width: 255px;
-    height: 40px;
-    top: 52px;
-    gap: 0px;
-    border-radius: 8px ;
-    opacity: 0.2px;
-     border: 0px;
-    background: #434343;
-    
-
+.foo23 input {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    padding: 8px;
 }
-.foo23 img{
+
+.foo23 img {
     width: 18px;
-height: 18px;
-position:relative;
-bottom: -2px;
-right: 30px;
-padding: 0.75px;
-gap: 0px;
-opacity: 0px;
+    height: 18px;
+}
 
+.inpg {
+    width: 250px;
+    display: flex;
+    column-gap: 10px;
+    background-color: #434343;
+    padding: 5px 10px;
+    border-radius: 8px;
+    align-items: center;
+}
 
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .footer2 {
+        padding: 64px 100px;
+        gap: 80px;
+    }
 
+    .foo1 {
+        max-width: 300px;
+    }
+
+    .foo2 {
+        max-width: 550px;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer2 {
+        padding: 64px 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .foo1, .foo2 {
+        max-width: none;
+        width: 100%;
+    }
+
+    .foo1, .foo2, .foo21, .foo22, .foo23 {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer1 > h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .footer1 > button {
+        font-size: 14px;
+        padding: 10px 24px;
+    }
+
+    .footer2 {
+        padding: 32px 20px;
+        gap: 20px;
+    }
+
+    .foo2 {
+        gap: 15px;
+    }
+
+    .foo2 h3, .foo2 p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer1 > h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .footer1 > button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .footer2 {
+        padding: 16px 10px;
+        gap: 10px;
+    }
+
+    .foo12 > p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .foo2 h3, .foo2 p {
+        font-size: 16px;
+        line-height: 20px;
+    }
 }

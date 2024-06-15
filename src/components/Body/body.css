@@ -1,74 +1,78 @@
 .bodypage {
-  width: Hug (1, 440px) px;
-  height: Hug (2, 242.4px) px;
-  top: 1411px;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  left: 1px;
   gap: 48px;
   opacity: 0px;
+  margin: 0 auto;
 }
+
 .Unlock {
-  width: Hug (1, 440px) px;
-  height: Hug (433px) px;
-  gap: 0px;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  gap: 32px;
   opacity: 0px;
   display: flex;
   justify-content: center;
-  gap: 32px;
+  flex-wrap: wrap;
 }
-p{
 
+p {
   color: #717171;
-  
-  }
+}
 
 .Unlock img {
   width: 442px;
-  height: 433px;
+  height: auto;
   padding: 52px 0.47px 52.01px 0px;
   gap: 0px;
   opacity: 0px;
 }
 
 .Unlock > div {
-  width: Fixed (661px) px;
-  height: Hug (268px) px;
+  width: 100%;
+  max-width: 661px;
+  height: auto;
   margin-top: 70px;
   gap: 32px;
   display: flex;
   flex-direction: column;
   opacity: 0px;
 }
+
 .Unlock h1 {
-  width: 601px;
-  height: 88px;
+  width: 100%;
+  max-width: 601px;
+  height: auto;
   gap: 0px;
   opacity: 0px;
-
-  /* //styleName: Heading/Headline 2; */
   font-family: Inter;
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
   text-align: left;
 }
+
 .Unlock p {
-  width: 601px;
-  height: 80px;
+  width: 100%;
+  max-width: 601px;
+  height: auto;
   gap: 0px;
   opacity: 0px;
-  /* //styleName: Body/Regular/Body 3; */
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   text-align: left;
 }
+
 .Unlock button {
   width: 151px;
-  height: Hug (52px) px;
-  padding: 14px 32px 14px 32px;
+  height: auto;
+  padding: 14px 32px;
   gap: 10px;
   border-radius: 4px;
   opacity: 0px;
@@ -77,37 +81,39 @@ p{
 }
 
 .Achivements {
-  width: Fixed (1, 440px) px;
-  height: Hug (288px) px;
-  padding: 64px 144px 64px 144px;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  padding: 64px 144px;
   gap: 0px;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   opacity: 0px;
   background: #F5F7FA;
-
+  flex-wrap: wrap;
 }
 
 .Achivements1 {
-  width: Fixed (540px) px;
-  height: Hug (120px) px;
+  width: 100%;
+  max-width: 540px;
+  height: auto;
   gap: 8px;
   opacity: 0px;
 }
 
 .Achivements1 h1 {
-  width: 408px;
-  height: 88px;
+  width: 100%;
+  max-width: 408px;
+  height: auto;
   gap: 0px;
   opacity: 0px;
-
-  /* //styleName: Heading/Headline 2; */
   font-family: Inter;
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
   text-align: left;
 }
+
 .Achivements1 span {
   font-family: Inter;
   font-size: 36px;
@@ -117,7 +123,6 @@ p{
 }
 
 .Achivements1 p {
-  /* //styleName: Body/Regular/Body 3; */
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
@@ -126,8 +131,9 @@ p{
 }
 
 .Achivements2 {
-  width: Hug (540px) px;
-  height: Hug (160px) px;
+  width: 100%;
+  max-width: 540px;
+  height: auto;
   gap: 40px;
   opacity: 0px;
   display: flex;
@@ -135,22 +141,22 @@ p{
 }
 
 .Achivements2 > div {
-  width: Hug (540px) px;
-  height: Hug (60px) px;
+  width: 100%;
+  max-width: 540px;
+  height: auto;
   gap: 30px 30px;
   display: grid;
-  grid-template-columns: repeat(2, 4fr);
-
+  grid-template-columns: repeat(2, 1fr);
   opacity: 0px;
 }
 
 .Achivements2 > div > div {
-  width: Hug (255px) px;
-  height: Hug (60px) px;
+  width: 100%;
+  max-width: 255px;
+  height: auto;
   gap: 16px;
   opacity: 0px;
   display: flex;
-  /* border: 1px solid red; */
 }
 
 .Achivements2 h1 {
@@ -158,7 +164,6 @@ p{
   height: 36px;
   gap: 0px;
   opacity: 0px;
-  /* //styleName: Heading/Headline 3; */
   font-family: Inter;
   font-size: 28px;
   font-weight: 700;
@@ -166,12 +171,12 @@ p{
   text-align: left;
   color: #4d4d4d;
 }
+
 .Achivements2 p {
   width: 191px;
   height: 24px;
   gap: 0px;
   opacity: 0px;
-  /* //styleName: Body/Regular/Body 2; */
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -180,56 +185,58 @@ p{
 }
 
 .Calenders {
-  width: Hug (1, 440px) px;
-  height: Hug (433.4px) px;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
   gap: 10px;
   display: flex;
   justify-content: center;
   opacity: 0px;
+  flex-wrap: wrap;
 }
 
 .Calenders1 {
   width: 441.53px;
-  height: 433.4px;
+  height: auto;
   gap: 0px;
   opacity: 0px;
 }
 
 .Calenders1 > img {
   width: 441.53px;
-  height: 433.4px;
+  height: auto;
   gap: 0px;
   opacity: 0px;
 }
+
 .Calenders2 {
-  width: Fixed (661px) px;
-  height: Hug (308px) px;
+  width: 100%;
+  max-width: 661px;
+  height: auto;
   gap: 32px;
   opacity: 0px;
-  /* background-color: #4CAF4F; */
 }
 
 .Calenders2 > h1 {
-  width: 601px;
-  height: 88px;
+  width: 100%;
+  max-width: 601px;
+  height: auto;
   gap: 0px;
   opacity: 0px;
-  /* //styleName: Heading/Headline 2; */
   font-family: Inter;
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
   text-align: left;
-
   color: #4d4d4d;
 }
 
 .Calenders2 > p {
-  width: 601px;
-  height: 120px;
+  width: 100%;
+  max-width: 601px;
+  height: auto;
   gap: 0px;
   opacity: 0px;
-  /* //styleName: Body/Regular/Body 3; */
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
@@ -238,9 +245,9 @@ p{
 }
 
 .Calenders2 > button {
-  width: Hug (151px) px;
-  height: Hug (52px) px;
-  padding: 14px 32px 14px 32px;
+  width: 151px;
+  height: auto;
+  padding: 14px 32px;
   gap: 10px;
   border-radius: 4px;
   opacity: 0px;
@@ -248,16 +255,20 @@ p{
   color: aliceblue;
   margin-top: 20px;
 }
+
 .Custmore {
-  width: Fixed (1, 440px) px;
-  height: Hug (390px) px;
-  padding: 32px 144px 32px 144px;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  padding: 32px 144px;
   display: flex;
   justify-content: space-evenly;
   gap: 78px;
   opacity: 0px;
   background: #f5f7fa;
+  flex-wrap: wrap;
 }
+
 .Custmore1 {
   width: 326px;
   height: 326px;
@@ -267,39 +278,41 @@ p{
 }
 
 .Custmore2 {
-  width: Fill (748px) px;
-  height: Hug (324px) px;
+  width: 100%;
+  max-width: 748px;
+  height: auto;
   gap: 32px;
   opacity: 0px;
 }
 
 .content {
-  width: Fill (748px) px;
-  height: Hug (244px) px;
+  width: 100%;
+  max-width: 748px;
+  height: auto;
   gap: 16px;
   opacity: 0px;
 }
 
 .content > p {
-  width: 748px;
-  /* height: 168px; */
+  width: 100%;
+  max-width: 748px;
   gap: 0px;
-    margin-top: 10px;
+  margin-top: 10px;
   opacity: 0px;
-  /* //styleName: Body/Medium/Body 2; */
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   text-align: left;
 }
+
 .content > h2 {
-  width: 748px;
-  height: 28px;
+  width: 100%;
+  max-width: 748px;
+  height: auto;
   margin-top: 10px;
   gap: 0px;
   opacity: 0px;
-  /* //styleName: Heading/Headline 4;? */
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
@@ -309,183 +322,204 @@ p{
 }
 
 .Frame {
-  width: Fill (748px) px;
-  height: Hug (48px) px;
+  width: 100%;
+  max-width: 748px;
+  height: auto;
   gap: 32px;
   display: flex;
   opacity: 0px;
   margin-top: 80px;
 }
+
 .frame1 {
-  width: Hug (493px) px;
-  height: Hug (48px) px;
+  width: 100%;
+  max-width: 493px;
+  height: auto;
   gap: 41px;
   opacity: 0px;
   display: flex;
-  flex-direction:row;
-
-
+  flex-direction: row;
 }
-.frame1>img{
 
-    width: 40px;
-height: 40px;
-gap: 10px;
-opacity: 0px;
-
-}
-.frame2 {
-  width: Fill (223px) px;
-  height: Hug (44px) px;
-  padding: 8px 0px 0px 0px;
-  gap: 8px;
- 
+.frame1 > img {
+  width: 40px;
+  height: 40px;
+  gap: 10px;
   opacity: 0px;
 }
 
-.frame2>h2{
-    width: 188px;
-height: 28px;
-gap: 0px;
-opacity: 0px;
-/* //styleName: Heading/Headline 4; */
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 28px;
-text-align: left;
-color: #4caf4f;
-
+.frame2 {
+  width: 100%;
+  max-width: 223px;
+  height: auto;
+  padding: 8px 0px 0px 0px;
+  gap: 8px;
+  opacity: 0px;
 }
 
-.Commmunity{
-    width: Hug (1,440px)px;
-    height: Hug (506px)px;
-    gap: 16px;
-    opacity: 0px;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    
-
+.frame2 > h2 {
+  width: 188px;
+  height: auto;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #4caf4f;
 }
 
-.commun1{
-    width: Fixed (1,110px)px;
-height: Hug (124px)px;
-display: flex;
-flex-direction: column;
-/* justify-content: center; */
-align-items: center;
-/* gap: 8px; */
-opacity: 0px;
-
-}
-.commun1>h1{
-    width: 1110px;
-height: 44px;
-gap: 0px;
-opacity: 0px;
-/* //styleName: Heading/Headline 2; */
-font-family: Inter;
-font-size: 36px;
-font-weight: 600;
-line-height: 44px;
-text-align: center;
-color: #4D4D4D;
-;
-
-}
-.commun1>p{
-    width: 628px;
-height: 72px;
-gap: 0px;
-opacity: 0px;
-/* //styleName: Body/Regular/Body 2; */
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: center;
-
+.Commmunity {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.commun2{
-    width: Fixed (1,440px)px;
-    height: Hug (366px)px;
-    padding: 0px 144px 0px 144px;
-    display: flex;
-    gap: 10px;
-    justify: space-between;
-    opacity: 0px;
-    
-
+.commun1 {
+  width: 100%;
+  max-width: 1110px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0px;
 }
 
-.commun2>div{
-    width: Hug (368px)px;
-    height: Hug (366px)px;
-    gap: 0px;
-    opacity: 0px;
-    
-}
-.commun2>img{
-    width: 368px;
-height: 286px;
-/* gap: 10px; */
-border-radius: 8px 0px 0px 0px;
-opacity: 0px;
-
+.commun1 > h1 {
+  width: 100%;
+  max-width: 1110px;
+  height: auto;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  color: #4D4D4D;
 }
 
-
-
-.con{
-
-    width:317px;
-height: 176px;
-padding: 16px 0px 0px 0px;
-gap: 16px;
-border-radius: 8px;
-opacity: 0px;
-background: #F5F7FA;
-box-shadow: 0px 8px 16px 0px #ABBED166;
-
-position: relative;
-bottom: 150px;
-left: 30px;
-
-}
-.con>p{
-    width: 285px;
-height: 84px;
-gap: 0px;
-opacity: 0px;
-
-/* //styleName: Heading/Headline 4; */
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 28px;
-text-align: center;
-
+.commun1 > p {
+  width: 100%;
+  max-width: 628px;
+  height: auto;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
 }
 
-.con>h4{
-    width: 99px;
-height: 28px;
-gap: 0px;
-opacity: 0px;
-/* //styleName: Heading/Headline 4; */
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 28px;
-text-align: left;
-color: #4CAF4F;
-margin-left: 100px;
+.commun2 {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  padding: 0px 144px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  opacity: 0px;
+  flex-wrap: wrap;
+}
 
+.commun2 > div {
+  width: 100%;
+  max-width: 368px;
+  height: auto;
+  gap: 0px;
+  opacity: 0px;
+}
 
+.commun2 > img {
+  width: 368px;
+  height: auto;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.con {
+  width: 317px;
+  height: auto;
+  padding: 16px 0px 0px 0px;
+  gap: 16px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #F5F7FA;
+  box-shadow: 0px 8px 16px 0px #ABBED166;
+  position: relative;
+  bottom: 150px;
+  left: 30px;
+}
+
+.con > p {
+  width: 285px;
+  height: auto;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+
+.con > h4 {
+  width: 99px;
+  height: auto;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #4CAF4F;
+  margin-left: 100px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1440px) {
+  .bodypage, .Unlock, .Achivements, .Custmore, .Commmunity, .commun2 {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Unlock img, .Calenders1 > img {
+      width: 100%;
+      height: auto;
+  }
+
+  .Unlock > div, .Achivements2, .Custmore2, .content, .Frame, .commun1, .commun2 > div {
+      width: 100%;
+  }
+
+  .Unlock h1, .Unlock p, .Calenders2 > h1, .Calenders2 > p, .content > p, .content > h2 {
+      text-align: center;
+  }
+
+  .Custmore {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .Achivements {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .commun2 {
+      flex-direction: column;
+      align-items: center;
+  }
 }

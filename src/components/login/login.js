@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Container, Form, Button, Alert } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-
-import "./login.css"
+import './login.css'; 
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
@@ -26,28 +25,32 @@ const LoginPage = () => {
   };
 
   return (
-    <Container className="mt-5">
+    <Container className="mt-5 login-container">
       <h2 className="text-center">Login</h2>
       <Form onSubmit={handleLogin}>
-        <Form.Group controlId="formBasicEmail">
-          <Form.Label>Email:</Form.Label>
-          <Form.Control
+        <div className="form-group">
+          <label htmlFor="formBasicEmail">Email:</label>
+          <input
             type="email"
+            id="formBasicEmail"
+            className="form-control"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-        </Form.Group>
+        </div>
 
-        <Form.Group controlId="formBasicPassword">
-          <Form.Label>Password:</Form.Label>
-          <Form.Control
+        <div className="form-group">
+          <label htmlFor="formBasicPassword">Password:</label>
+          <input
             type="password"
+            id="formBasicPassword"
+            className="form-control"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-        </Form.Group>
+        </div>
 
         {error && (
           <Alert variant="danger" className="mt-3">
