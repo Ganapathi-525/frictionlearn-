@@ -6,7 +6,9 @@
     padding: 0px 144px;
     gap: 16px;
     opacity: 0px;
-    margin: 0 auto;
+    margin: 10px;
+    /* margin: 0 auto; */
+    /* margin-top: 30px; */
 }
 
 .client1 {
@@ -54,6 +56,7 @@
 @media (max-width: 1440px) {
     .client {
         padding: 0px 20px;
+        margin: 50px;
     }
 
     .client1 {
@@ -63,6 +66,7 @@
 
     .client2 {
         width: auto;
+       
         justify-content: space-around;
         flex-wrap: wrap;
     }
@@ -87,6 +91,8 @@
 
     .client2 {
         flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(4,2fr);
         align-items: center;
         height: auto;
     }

@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: auto;
     top: 3748px;
     gap: 0;
@@ -9,7 +9,7 @@ footer {
 
 .footer1 {
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: auto;
     padding: 32px 0;
     gap: 32px;
@@ -52,7 +52,7 @@ footer {
 
 .footer2 {
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: auto;
     padding: 64px 165px;
     display: flex;
