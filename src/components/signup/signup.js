@@ -15,9 +15,9 @@ const SignupPage = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('/api/signup', { name, email, password });
+      // const response = await axios.post('/api/signup', { name, email, password });
       // Handle successful signup, e.g., redirect to login page
-      console.log(response.data);
+      // console.log(response.data);
       navigate('/login'); // Redirect to login page
     } catch (err) {
       setError(err.response.data.message);

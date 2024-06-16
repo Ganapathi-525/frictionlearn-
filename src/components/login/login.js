@@ -14,8 +14,8 @@ const LoginPage = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('/api/login', { email, password });
-      console.log(response.data);
+      // const response = await axios.post('/api/login', { email, password });
+      // console.log(response.data);
       
       // Navigate to home page after successful login
       navigate('/');
