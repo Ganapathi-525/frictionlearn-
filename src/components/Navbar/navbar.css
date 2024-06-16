@@ -16,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    opacity: 0px;
+    opacity: 1; /* Changed to 1 */
     background: #F5F7FA;
     margin: 0 auto;
 }
@@ -28,14 +28,14 @@ nav {
     left: 105px;
     gap: 8px;
     display: flex;
-    opacity: 0px;
+    opacity: 1; /* Changed to 1 */
 }
 
 .icondiv > h1 {
     width: 111.49px;
     height: 20.66px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 1; /* Changed to 1 */
     color: #263238;
 }
 
@@ -45,7 +45,7 @@ nav {
     top: 30px;
     left: 425.5px;
     gap: 10px;
-    opacity: 0px;
+    opacity: 1; /* Changed to 1 */
     display: flex;
     justify-content: space-between;
     font-family: Inter;
@@ -71,7 +71,7 @@ nav {
     left: 1138px;
     display: flex;
     gap: 14px;
-    opacity: 0px;
+    opacity: 1; /* Changed to 1 */
 }
 
 .loginh1 {
@@ -84,7 +84,7 @@ nav {
     padding: 10px 20px 10px 20px;
     gap: 10px;
     /* border-radius: 6px 0px 0px 0px; */
-    opacity: 0px;
+    opacity: 1; /* Changed to 1 */
 }
 
 .Logindiv h1 {
@@ -104,7 +104,7 @@ nav {
     padding: 10px 20px 10px 20px;
     gap: 10px;
     border-radius: 6px;
-    opacity: 0px;
+    opacity: 1; /* Changed to 1 */
     color: #F5F7FA;
 }
 
