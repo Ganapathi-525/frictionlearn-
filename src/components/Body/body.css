@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   /* margin: 0 auto; */
   margin: 10px;
 }
@@ -15,7 +15,7 @@
   max-width: 1440px;
   height: auto;
   gap: 32px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -30,7 +30,7 @@ p {
   height: auto;
   padding: 52px 0.47px 52.01px 0px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .Unlock > div {
@@ -41,7 +41,7 @@ p {
   gap: 32px;
   display: flex;
   flex-direction: column;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .Unlock h1 {
@@ -49,7 +49,7 @@ p {
   max-width: 601px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 36px;
   font-weight: 600;
@@ -62,7 +62,7 @@ p {
   max-width: 601px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
@@ -76,7 +76,7 @@ p {
   padding: 14px 32px;
   gap: 10px;
   border-radius: 4px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   background: #4caf4f;
   color: aliceblue;
 }
@@ -89,7 +89,7 @@ p {
   gap: 0px;
   display: flex;
   justify-content: space-around;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   background: #F5F7FA;
   flex-wrap: wrap;
 }
@@ -99,7 +99,7 @@ p {
   max-width: 540px;
   height: auto;
   gap: 8px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .Achivements1 h1 {
@@ -107,7 +107,7 @@ p {
   max-width: 408px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 36px;
   font-weight: 600;
@@ -136,7 +136,7 @@ p {
   max-width: 540px;
   height: auto;
   gap: 40px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   display: flex;
   flex-direction: column;
 }
@@ -148,7 +148,7 @@ p {
   gap: 30px 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .Achivements2 > div > div {
@@ -156,7 +156,7 @@ p {
   max-width: 255px;
   height: auto;
   gap: 16px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   display: flex;
 }
 
@@ -164,7 +164,7 @@ p {
   width: 191px;
   height: 36px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 28px;
   font-weight: 700;
@@ -177,7 +177,7 @@ p {
   width: 191px;
   height: 24px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -192,7 +192,7 @@ p {
   gap: 10px;
   display: flex;
   justify-content: center;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   flex-wrap: wrap;
 }
 
@@ -200,14 +200,14 @@ p {
   width: 441.53px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .Calenders1 > img {
   width: 441.53px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .Calenders2 {
@@ -215,7 +215,7 @@ p {
   max-width: 661px;
   height: auto;
   gap: 32px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .Calenders2 > h1 {
@@ -223,7 +223,7 @@ p {
   max-width: 601px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 36px;
   font-weight: 600;
@@ -237,7 +237,7 @@ p {
   max-width: 601px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
@@ -251,7 +251,7 @@ p {
   padding: 14px 32px;
   gap: 10px;
   border-radius: 4px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   background: #4caf4f;
   color: aliceblue;
   margin-top: 20px;
@@ -265,7 +265,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   gap: 78px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   background: #f5f7fa;
   flex-wrap: wrap;
 }
@@ -275,7 +275,7 @@ p {
   height: 326px;
   gap: 0px;
   border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .Custmore2 {
@@ -283,7 +283,7 @@ p {
   max-width: 748px;
   height: auto;
   gap: 32px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .content {
@@ -291,7 +291,7 @@ p {
   max-width: 748px;
   height: auto;
   gap: 16px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .content > p {
@@ -299,7 +299,7 @@ p {
   max-width: 748px;
   gap: 0px;
   margin-top: 10px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
@@ -313,7 +313,7 @@ p {
   height: auto;
   margin-top: 10px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
@@ -328,7 +328,7 @@ p {
   height: auto;
   gap: 32px;
   display: flex;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   margin-top: 80px;
 }
 
@@ -337,7 +337,7 @@ p {
   max-width: 493px;
   height: auto;
   gap: 41px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   display: flex;
   flex-direction: row;
 }
@@ -346,7 +346,7 @@ p {
   width: 40px;
   height: 40px;
   gap: 10px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .frame2 {
@@ -355,14 +355,14 @@ p {
   height: auto;
   padding: 8px 0px 0px 0px;
   gap: 8px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .frame2 > h2 {
   width: 188px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
@@ -376,7 +376,7 @@ p {
   max-width: 1440px;
   height: auto;
   gap: 16px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -390,7 +390,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .commun1 > h1 {
@@ -398,7 +398,7 @@ p {
   max-width: 1110px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 36px;
   font-weight: 600;
@@ -412,7 +412,7 @@ p {
   max-width: 628px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -428,7 +428,7 @@ p {
   display: flex;
   gap: 10px;
   justify-content: space-between;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   flex-wrap: wrap;
 }
 
@@ -437,14 +437,14 @@ p {
   max-width: 368px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .commun2 > img {
   width: 368px;
   height: auto;
   border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
 }
 
 .con {
@@ -453,7 +453,7 @@ p {
   padding: 16px 0px 0px 0px;
   gap: 16px;
   border-radius: 8px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   background: #F5F7FA;
   box-shadow: 0px 8px 16px 0px #ABBED166;
   position: relative;
@@ -465,7 +465,7 @@ p {
   width: 285px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
@@ -477,7 +477,7 @@ p {
   width: 99px;
   height: auto;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1; /* Changed to 1 */
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
